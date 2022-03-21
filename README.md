@@ -27,6 +27,13 @@ We plan to use the following techniques in our analysis:
 * **Clustering:** Clustering will allow us to group together songs with similar features, and help us recognise patterns in popular music tracks.
 * **Heat Map:** Heat maps will be used to identify which features of a set of popular tracks tend to be high or low.
 
+## Use
+When you create an account for Spotify's API, they will provide a CID and secret. You will need to create a `.env` file with these values:
+```py
+cid = {cid};
+secret = {secret};
+```
+
 ## Column Descriptions
 | Name | Description
 | :--- | :----------
